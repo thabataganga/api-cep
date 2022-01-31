@@ -4,6 +4,6 @@ var api = require('../api');
 
 module.exports = function(app) {
 
-    app.route('/dados/:cep')
+    app.route('/cep/:cep')
         .get(api.dados);
 };
